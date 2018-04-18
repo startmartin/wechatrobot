@@ -30,7 +30,7 @@ def text_reply(msg):
         defaultReply = 'I received: ' + msg['Text']
         #remove nickname of the msg Text
         puremsg = msg['Text']
-        puremsg = puremsg.replace("@叫我马丁","")
+        puremsg = puremsg.replace("@"+globalconf["wechatproperty"]["nickname"],"")
         reply = get_response(puremsg)
         return reply or defaultReply
 
