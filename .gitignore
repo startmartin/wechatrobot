@@ -1,0 +1,12 @@
+build/*
+dist/*
+tests/*
+itchat.egg-info/*
+*.pyc
+*.pkl
+*.swp
+test.py
+itchat.pkl
+QR.jpg
+.DS_Store
+conf/conf.json
